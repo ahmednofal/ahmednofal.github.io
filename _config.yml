@@ -28,6 +28,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ahmednofal
 
+# Pages listed in the header nav. Other pages (e.g. extension privacy policies) stay unlisted.
+header_pages:
+  - about.markdown
+
 # Build settings
 theme: minima
 plugins:
